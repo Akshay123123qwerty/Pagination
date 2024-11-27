@@ -38,12 +38,12 @@ const App = () => {
   };
 
   return (
-    <div style={{ padding: '20px', textAlign: 'center' }}>
+    <div style={{ padding: '20px', backgroundColor:'Bisque', textAlign: 'center' }}>
       <h1>Paginated Users</h1>
       
       {/* Display current data */}
       {currentData.map((user, index) => (
-        <div key={index} style={{ margin: '10px 0', border: '1px solid #ccc', padding: '10px' }}>
+        <div key={index} style={{ margin: '10px 0', border: '1px solid #ccc',  backgroundColor:'Snow', padding: '10px' }}>
           <p>
             <strong>Name:</strong> {user.name.first} {user.name.last}
           </p>
